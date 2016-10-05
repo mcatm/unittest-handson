@@ -1,0 +1,10 @@
+{
+    "name": "mcatm/phpunit",
+    "authors": [
+        {
+            "name": "mcatm",
+            "email": "tkcs@pelepop.com"
+        }
+    ],
+    "require": {}
+}
