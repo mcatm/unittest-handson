@@ -9,7 +9,8 @@ class CalcTest extends TestCase
 
   public function testCalc()
   {
-
+    $this->assertEquals( calc(1, 1), 2 );
+    $this->assertEquals( calc(2, 2), 4 );
   }
 
 }
