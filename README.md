@@ -8,6 +8,6 @@
 
 ```sh
 $ php composer.phar install
-
+$ php -S localhost:8080
 ```
 
