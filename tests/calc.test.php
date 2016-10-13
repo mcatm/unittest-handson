@@ -18,10 +18,12 @@ class CalcTest extends TestCase
     $this->assertEquals( calc(38), 38 );
   }
 
+  /**
+   * @expectedException Exception
+   */
   public function testFirstArgIsNull()
   {
     calc();
-    $this->expectException(Exception::class);
   }
 
   public function testCalcNotStr()

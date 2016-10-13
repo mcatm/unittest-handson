@@ -44,6 +44,10 @@ $ vendor/bin/phpunit tests/calc.test.php
 
 1. 第三引数が、`exp`だった場合、`a^b`を返す（前のテストに引っかかる）
 
+> CircleCIについて
+
+1. `circle.yml`を作成する
+
 ---
 
 ## Links
