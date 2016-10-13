@@ -2,7 +2,7 @@
 
 > Whenever you are tempted to type something into a print statement or a debugger expression, write it as a test instead.
 
-**何かを print 文やデバッガの式に書きたくなったときは、 代わりにその内容をテストに書くようにするんだ。**
+*何かを print 文やデバッガの式に書きたくなったときは、 代わりにその内容をテストに書くようにするんだ。*
 
 ## Dependencies
 
