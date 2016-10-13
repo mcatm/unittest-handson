@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-- PHP
+- PHP5.5+
 
 ## Setup
 
@@ -11,6 +11,8 @@ $ php composer.phar install
 $ php -S localhost:8080
 $ vendor/bin/phpunit tests/calc.test.php
 ```
+
+---
 
 ## Menu
 
@@ -41,6 +43,8 @@ $ vendor/bin/phpunit tests/calc.test.php
 > 突然、冪乗を計算したくなる
 
 1. 第三引数が、`exp`だった場合、`a^b`を返す（前のテストに引っかかる）
+
+---
 
 ## Links
 
