@@ -26,6 +26,14 @@ class CalcTest extends TestCase
     calc();
   }
 
+  /**
+   * @expectedException Exception
+   */
+  public function testRejectThirdArg()
+  {
+    calc(0, 1, 1);
+  }
+
   public function testCalcNotStr()
   {
     // $this->assertEquals( calc('test', 1), null );

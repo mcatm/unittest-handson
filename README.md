@@ -9,7 +9,7 @@
 ```sh
 $ php composer.phar install
 $ php -S localhost:8080
-$ vendor/bin/phpunit tests/calc.test.php
+$ vendor/bin/phpunit tests/calc.test.php --colors
 ```
 
 ---
@@ -24,7 +24,7 @@ $ vendor/bin/phpunit tests/calc.test.php
 1. 第二引数に何も入っていなかったら、第一引数を返して欲しい（`assetEquals()`）
 1. 第一引数に何も入っていなかったら、エラーを返して欲しい（`expectException()`）
 1. 返り値はIntであって欲しい
-1. 引数がIntではなかった時、エラーを返してほしい（`expectException()`）
+1. 引数が設定されていなかった時、エラーを返してほしい（`@expectedException`）
 1. 第三引数が設定されてたら、エラーを返して欲しい
 
 ### calc(int $a, int $b, string $op)
