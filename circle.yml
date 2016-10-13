@@ -1,2 +1,3 @@
 test:
-  override: php vendor/bin/phpunit tests/calc.test.php
+  override:
+   - php vendor/bin/phpunit tests/calc.test.php
