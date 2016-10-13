@@ -1,0 +1,3 @@
+test:
+  override:
+   - php vendor/bin/phpunit tests/calc.test.php --colors
