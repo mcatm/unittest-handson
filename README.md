@@ -1,5 +1,7 @@
 # Unit Test
 
+[![CircleCI](https://circleci.com/gh/mcatm/unittest-handson.svg?style=svg)](https://circleci.com/gh/mcatm/unittest-handson)
+
 ## Dependencies
 
 - PHP5.5+
